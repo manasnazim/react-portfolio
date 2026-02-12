@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');
+
+.header {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  background: linear-gradient(135deg, #000000, #232424);
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;   
+}
+
+
+
+.header-buttons{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+
+.header .btn-resume{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.header p{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
